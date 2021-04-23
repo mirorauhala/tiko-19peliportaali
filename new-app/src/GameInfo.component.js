@@ -35,7 +35,7 @@ export class GameInfo extends Component {
         return (
             <div className="gameInfoComponent">
                 {star} <img className="gameTableImg" alt="" 
-                        src={`${process.env.PUBLIC_URL}logos/` + this.groupid + `_pelilogo.png`} /> 
+                        src={`${process.env.PUBLIC_URL}/logos/` + this.groupid + `_pelilogo.png`} /> 
                  
                 <h4 className='infoTitle'> {this.title} </h4>
 

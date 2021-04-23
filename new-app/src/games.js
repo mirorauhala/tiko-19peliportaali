@@ -43,7 +43,7 @@ class Games extends Component {
         if (data.groupid === undefined) {
           url = orasLogo
         } else {
-          url = `${process.env.PUBLIC_URL}logos/` + data.groupid + `_pelilogo.png`
+          url = `${process.env.PUBLIC_URL}/logos/` + data.groupid + `_pelilogo.png`
         }
         this.setState({ gameInfo: 
           <div>
@@ -60,7 +60,7 @@ class Games extends Component {
           <div>
             {star}
             <img alt=""  width="80%"
-              src={`${process.env.PUBLIC_URL}logos/` + data.groupid + `_pelilogo.png`} 
+              src={`${process.env.PUBLIC_URL}/logos/` + data.groupid + `_pelilogo.png`} 
               />
             <h2>{data.gameName}</h2>
             <p>{data.description_en}</p>
@@ -155,15 +155,15 @@ class Games extends Component {
     <tbody>
       <tr>
         <td><img alt='' src={badge} /> {this.state.txt.prize.voteWinner}</td>
-        <td><img alt='' src={`${process.env.PUBLIC_URL}logos/` + GameData.game19tiko2a.groupid + `_pelilogo.png`} /> {GameData.game19tiko2a.gameName}</td>
+        <td><img alt='' src={`${process.env.PUBLIC_URL}/logos/` + GameData.game19tiko2a.groupid + `_pelilogo.png`} /> {GameData.game19tiko2a.gameName}</td>
       </tr>
       <tr>
         <td><img alt='' src={badge} /> {this.state.txt.prize.customerWinner}</td>
-        <td><img alt='' src={`${process.env.PUBLIC_URL}logos/` + GameData.game19tiko3c.groupid + `_pelilogo.png`} /> {GameData.game19tiko3c.gameName}</td>
+        <td><img alt='' src={`${process.env.PUBLIC_URL}/logos/` + GameData.game19tiko3c.groupid + `_pelilogo.png`} /> {GameData.game19tiko3c.gameName}</td>
       </tr>
       <tr>
         <td><img alt='' src={badge} /> {this.state.txt.prize.gameWinner}</td>
-        <td><img alt='' src={`${process.env.PUBLIC_URL}logos/` + GameData.game19tiko2b.groupid + `_pelilogo.png`} /> {GameData.game19tiko2b.gameName}</td>
+        <td><img alt='' src={`${process.env.PUBLIC_URL}/logos/` + GameData.game19tiko2b.groupid + `_pelilogo.png`} /> {GameData.game19tiko2b.gameName}</td>
       </tr>
     </tbody>
   </Table>

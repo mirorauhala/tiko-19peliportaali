@@ -13,11 +13,11 @@ export default class Game {
         this.winner = winner
     }
     setbackground(groupid) {
-        let backgroundUrl = `${process.env.PUBLIC_URL}logos/` + this.groupid + `_pelilogo.png`
+        let backgroundUrl = `${process.env.PUBLIC_URL}/logos/` + this.groupid + `_pelilogo.png`
         return backgroundUrl
     } 
     setUrl(groupid) {
-        let url = 'https://webpages.tuni.fi/tamk_' + groupid
+        let url = 'http://' + groupid + '.projects.tamk.fi/'
         return url
     }
 }
