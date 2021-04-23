@@ -90,7 +90,7 @@ class LandingPage extends Component {
     </Container>
     
     
-    <a href="/">
+    <a href={process.env.PUBLIC_URL + "/"}>
         <button>
           {this.state.txt.about.buttonText}
         </button>

@@ -28,7 +28,7 @@ class Navi extends Component {
         return (
 <Navbar  bg="dark" variant="dark" expand="lg" className="naviCustom">
   <Navbar bg="dark"  href="#home" className="naviTitle">
-    <a href="/">
+    <a href={process.env.PUBLIC_URL + "/"}>
       <img alt="" src={orasLogo} className="headerLogo" />
       {this.txt.navi.title}
     </a>
