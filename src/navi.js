@@ -36,10 +36,10 @@ class Navi extends Component {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="/"><span className="linkColor" >{this.txt.navi.games}</span></Nav.Link>
-      <Nav.Link href="/#/about"><span className="linkColor" >{this.txt.navi.about}</span></Nav.Link>
-      <Nav.Link href="/#/webinar"><span className="linkColor" >{this.txt.navi.webinar}</span></Nav.Link>
-      <Nav.Link href="/#/download"><span className="linkColor" >{this.txt.navi.download}</span></Nav.Link>
+      <Nav.Link href={process.env.PUBLIC_URL + "/"}><span className="linkColor" >{this.txt.navi.games}</span></Nav.Link>
+      <Nav.Link href={process.env.PUBLIC_URL + "/#/about"}><span className="linkColor" >{this.txt.navi.about}</span></Nav.Link>
+      <Nav.Link href={process.env.PUBLIC_URL + "/#/webinar"}><span className="linkColor" >{this.txt.navi.webinar}</span></Nav.Link>
+      <Nav.Link href={process.env.PUBLIC_URL + "/#/download"}><span className="linkColor" >{this.txt.navi.download}</span></Nav.Link>
     </Nav>
     <Nav className="ml-auto"><span className="linkColor" onClick={() => this.clickHandle()}>
       <Button>{this.txt.navi.language}</Button></span>
