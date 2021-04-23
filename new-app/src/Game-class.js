@@ -17,7 +17,7 @@ export default class Game {
         return backgroundUrl
     } 
     setUrl(groupid) {
-        let url = 'http://' + groupid + '.projects.tamk.fi/'
+        let url = 'https://webpages.tuni.fi/tamk_' + groupid
         return url
     }
 }
