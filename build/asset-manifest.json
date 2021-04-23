@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "https://webpages.tuni.fi/tamk_19tiko/static/css/main.9ed90b82.chunk.css",
+    "main.js": "https://webpages.tuni.fi/tamk_19tiko/static/js/main.efc4a01e.chunk.js",
+    "main.js.map": "https://webpages.tuni.fi/tamk_19tiko/static/js/main.efc4a01e.chunk.js.map",
+    "runtime-main.js": "https://webpages.tuni.fi/tamk_19tiko/static/js/runtime-main.394c3498.js",
+    "runtime-main.js.map": "https://webpages.tuni.fi/tamk_19tiko/static/js/runtime-main.394c3498.js.map",
+    "static/js/2.5ccc34a8.chunk.js": "https://webpages.tuni.fi/tamk_19tiko/static/js/2.5ccc34a8.chunk.js",
+    "static/js/2.5ccc34a8.chunk.js.map": "https://webpages.tuni.fi/tamk_19tiko/static/js/2.5ccc34a8.chunk.js.map",
+    "static/js/3.65cead68.chunk.js": "https://webpages.tuni.fi/tamk_19tiko/static/js/3.65cead68.chunk.js",
+    "static/js/3.65cead68.chunk.js.map": "https://webpages.tuni.fi/tamk_19tiko/static/js/3.65cead68.chunk.js.map",
+    "index.html": "https://webpages.tuni.fi/tamk_19tiko/index.html",
+    "static/css/main.9ed90b82.chunk.css.map": "https://webpages.tuni.fi/tamk_19tiko/static/css/main.9ed90b82.chunk.css.map",
+    "static/js/2.5ccc34a8.chunk.js.LICENSE.txt": "https://webpages.tuni.fi/tamk_19tiko/static/js/2.5ccc34a8.chunk.js.LICENSE.txt",
+    "static/media/android.b47d3809.png": "https://webpages.tuni.fi/tamk_19tiko/static/media/android.b47d3809.png",
+    "static/media/badge.2b07edc4.png": "https://webpages.tuni.fi/tamk_19tiko/static/media/badge.2b07edc4.png",
+    "static/media/download.css": "https://webpages.tuni.fi/tamk_19tiko/static/media/zig.04f2dbd8.ttf",
+    "static/media/instagram.f1e491f9.png": "https://webpages.tuni.fi/tamk_19tiko/static/media/instagram.f1e491f9.png",
+    "static/media/oras_logo_color_rgb.35bc25ad.png": "https://webpages.tuni.fi/tamk_19tiko/static/media/oras_logo_color_rgb.35bc25ad.png",
+    "static/media/tamk_fi.96d1abc4.png": "https://webpages.tuni.fi/tamk_19tiko/static/media/tamk_fi.96d1abc4.png",
+    "static/media/tiko_en.1e4e3f6d.png": "https://webpages.tuni.fi/tamk_19tiko/static/media/tiko_en.1e4e3f6d.png",
+    "static/media/tiko_fi.4e61a619.png": "https://webpages.tuni.fi/tamk_19tiko/static/media/tiko_fi.4e61a619.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.394c3498.js",
+    "static/js/2.5ccc34a8.chunk.js",
+    "static/css/main.9ed90b82.chunk.css",
+    "static/js/main.efc4a01e.chunk.js"
+  ]
+}
