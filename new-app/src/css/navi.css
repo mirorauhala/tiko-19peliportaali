@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Zig';
+    src: local('Zig'), url(../fonts/zig.ttf) format('truetype');
+  }
+
+.naviCustom {
+    margin: 0;
+    padding: 0;
+    font-family: Zig;
+}
+.naviTitle a {
+    color: greenyellow;
+    font-size: 1em;
+    padding: 0;
+    padding-right: 0.3em;
+}
+.naviTitle a:hover {
+    cursor: default;
+    text-decoration: none;
+}
+.linkColor {
+    padding-left: 1em;
+    color: white;
+}
+.linkColor:hover {
+    color: greenyellow;
+    text-decoration: underline;
+}
+.headerLogo {
+    height: 2.4em;
+    margin-right: 0.5em;
+} 
+.langButton {
+    color: red;
+}
+.linkColor Button {
+    padding-left: 1em;
+    color: white;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+}

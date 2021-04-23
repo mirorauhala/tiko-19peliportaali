@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Zig';
+    src: local('Zig'), url(../fonts/zig.ttf) format('truetype');
+  }
+.customStyle {
+    border-top: 5px solid greenyellow;
+    padding-top: 1em;
+    margin: 0;
+    font-family: Zig;
+    background: darkgrey;
+    color: white;
+}
+.customStyle h5 {
+    font-size: 2em;
+}
+.customStyle a {
+    color: greenyellow;
+}
+.customStyle Col {
+    background:red;
+}
+.footerPost img {
+    width:100%;
+}

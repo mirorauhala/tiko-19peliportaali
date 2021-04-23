@@ -1,0 +1,195 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+@font-face {
+    font-family: 'Zig';
+    src: local('Zig'), url(../fonts/zig.ttf) format('truetype');
+  }
+.title2 {
+    color: white;
+    text-align: center;
+}
+section {
+    padding:1em;
+    padding-bottom: 5em;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.gameMain {
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgb(173, 255, 47)),
+    url('../img/image001_ver3.png');
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+.gameMain h2 {
+    font-family: Zig;
+    font-size: 4em;
+    padding-bottom: 0em;
+    padding-top: 0.5em;
+}
+.containerPadding {
+    padding: 0;
+}
+.gameInfo {
+    border: 5px solid white;
+
+    color: white;
+    background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgb(255, 255, 255));
+    
+}
+.gameInfo a {
+    font-family: Zig;
+}
+.gameInfoSub {
+    height: 100%;
+}
+.gameInfo h2 {
+    font-family: Zig;
+    font-size: 1.5em;
+    padding-top: 1em;
+    text-align: center;
+    color: greenyellow;
+}
+.gameInfo p {
+    text-align:left;
+    color: white;
+    font-size: 1em;
+}
+.gameInfo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.hidden {
+    display: none;
+}
+.gameTableTitle {
+    height: 75px;
+    font-family: Zig;
+    text-align: center;
+}
+.gameTableTitle button {
+    color: greenyellow;
+    background: transparent;
+}
+.gameTableImg {
+    width: 100%;
+    top: 0;
+}
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th {
+      vertical-align: middle;
+ }
+.tableHeader {
+    color: black;
+    font-family: Zig;
+    text-align: center;
+}
+
+.display {
+    font-family: Zig;
+    display: block;
+    text-align: center;
+    margin-top: 1em;
+}
+.displayButton {
+    width: 100%;
+    font-size: larger;
+    background: white;
+    color: black;
+    display: block;
+    padding: 2em;
+}
+.displayGameText {
+    padding-top: 1em;
+    text-align: left;
+    background: none;
+    color: black;
+    border: none;
+}
+.defaultTexts img {
+    width: 90%;
+    padding-top: 1em;
+}
+.filterButtons {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 25%;
+    text-align: center;
+    font-family: Zig;
+    width: 100%;
+    font-size: smaller;
+}
+.filterButtons button {
+    width: 50%;
+    color: white;
+    background-color: rgba(255,255,255,0.2);
+    padding: 0.3em;
+}
+.filterButtons button:hover {
+    background-color: yellowgreen;
+}
+.infoButton {
+    color: black;
+    border: 1px solid black;
+    float:right;
+}
+.infoTitle {
+    color:black;
+    padding-bottom: 1em;
+    margin: 0;
+}
+.category {
+    width: 100%;
+    color:black;
+    float: left;
+    padding-left: 2%;
+}
+.vote {
+    text-align: center;
+    padding: 1.5em;
+    font-family: Zig;
+}
+.vote button {
+    color: black;
+    font-size: larger;
+    background: linear-gradient(yellowgreen, white);
+    border: 5px solid black;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+.vote button:hover {
+    background: yellowgreen;
+}
+.gameInfoComponent button {
+    color: black;
+}
+.prizeTable {
+    margin-left: 0.5em;
+    max-width: 100%;
+    text-align: center;
+    font-family: Zig;
+}
+.prizeTable tbody tr {
+    font-size: larger;
+}
+
+.prizeTable tbody tr td img {
+    float: left;
+    width: 50px;
+}
